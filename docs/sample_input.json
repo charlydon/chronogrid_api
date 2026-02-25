@@ -1,0 +1,44 @@
+{
+  "empleados": [
+    {
+      "id": "e1",
+      "nombre": "Alicia",
+      "max_horas_semanales": 40,
+      "roles": ["senior", "enfermera"]
+    },
+    {
+      "id": "e2",
+      "nombre": "Carlos",
+      "max_horas_semanales": 35,
+      "roles": ["junior", "enfermero"]
+    },
+    {
+      "id": "e3",
+      "nombre": "Beatriz",
+      "max_horas_semanales": 40,
+      "roles": ["junior", "enfermera"]
+    }
+  ],
+  "turnos_requeridos": [
+    {
+      "id_turno": "t1",
+      "dia": 0,
+      "tipo": "mañana",
+      "horas_duracion": 8,
+      "personal_necesario": 2,
+      "rol_requerido": "enfermera"
+    },
+    {
+      "id_turno": "t2",
+      "dia": 0,
+      "tipo": "noche",
+      "horas_duracion": 10,
+      "personal_necesario": 1,
+      "rol_requerido": "senior"
+    }
+  ],
+  "restricciones_globales": {
+    "horas_descanso_minimo": 12,
+    "max_dias_consecutivos": 6
+  }
+}
